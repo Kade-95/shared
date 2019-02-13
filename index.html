@@ -136,7 +136,7 @@
         xhttp.open ('GET', endpoint);
         xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-         result = JSON.stringify(xhttp.responseText);
+         result = JSON.parse(xhttp.responseText);
          conversionSucceeded(result)
        }
       }

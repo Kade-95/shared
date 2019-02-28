@@ -1,0 +1,93 @@
+.task{
+  margin-top: 50px;
+  border: 2px solid green;
+  font-family: sans-serif;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 225, 0.5);
+}
+
+#task_prototype{
+  display: none;
+}
+
+.added_task{
+  text-align: center;
+  width: 100%;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  display: none;
+}
+
+.task_title{
+  width: 90%;
+  margin-bottom: 30px;
+  margin-top: -9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  float: left;
+  word-break: break-all;
+  text-align: justify;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.reports{
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.a_report{
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.report_details{
+  width: 100%;
+  min-height: 50px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.report_details div{
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 1%;
+  margin-top: 0px;
+  min-height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.reporter_image{
+  width: 8%;
+  margin-left: 2%;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.report_details a{
+  margin-left: 1%;
+}
+
+.report_text{
+  margin-left: 1%;
+  word-break: break-word;
+  text-align: justify;
+  width: 98%;
+  white-space: pre-line;
+  margin-bottom: 20px;
+}
+
+.like{
+  background-color: transparent;
+  color: black;
+}

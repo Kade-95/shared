@@ -1,0 +1,70 @@
+#main_window{
+  width: 100%;
+  min-height: 100vh;
+  float: right;
+  clear: both;
+}
+
+.main_window_width_reduced{
+  width: 70%;
+  overflow-y: hidden;
+}
+
+.main_window_width{
+  overflow-y: visible;
+}
+
+.title{
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+.title_color{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.name_of_row{
+  width: 30%;
+}
+
+.loading img{
+  position: fixed;
+  top: 15vh;
+  left: 25vw;
+  height: 70vh; /* to make it responsive */
+  width: 50vw; /* to make it responsive */
+  overflow: hidden; /*to remove scrollbars */
+  z-index: 99999; /*to make it appear on topmost part of the page */
+  display: none; /*to make it visible only on fadeIn() function */
+}
+
+.notification{
+  height: 15px;
+  width: 15px;
+  margin-right: 1%;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  float: right;
+  font-weight: 700;
+}
+
+#notification_display{
+  width: 20%;
+  height: 300px;
+  background-color: lightgray;
+  margin-top: 1vh;
+  margin-top: 140px;
+  top: 0;
+  right: 0;
+  float: right;
+  display: none;
+  overflow-y: scroll;
+  border-radius: 10px;
+  position: absolute;
+}

@@ -1,0 +1,6 @@
+This is a system where cab drivers can register their business and customers in need of their services will come and get the cab available in his area
+
+registration of business
+map of area(google map)
+payment system
+

@@ -1,0 +1,53 @@
+.form{
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size-adjust: auto;
+  font-style: san-sarif;
+  text-align: center;
+}
+
+.form div{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
+  min-height: 30px;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+.form div input, .form div select{
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form div label{
+  float: left;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.form .submit{
+  margin-top: 50px;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.form td{
+  border: 1px solid #6200EA;
+}
+
+.img_preview{
+  width: 20%;
+  height: 70px;
+  margin-top: 10px;
+  border: 2px solid gray;
+}

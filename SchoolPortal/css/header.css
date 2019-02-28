@@ -1,0 +1,120 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  z-index: -99;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.cover{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 1;
+}
+
+header{
+  width: 100%;
+  min-height: 100px;
+  top: 0;
+  text-align: center;
+}
+
+header button{
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 1rem;
+}
+
+.nav_up{
+  display: none;
+  width: 100%;
+  min-height: 100px;
+  top: 0;
+  text-align: center;
+  position: fixed;
+}
+
+.main_menu{
+  width: 100%;
+  letter-spacing: 2px;
+  padding-top: 3vh;
+  position: relative;
+}
+
+.tools{
+  height: 50px;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 30%;
+  padding-bottom: 1vh;
+}
+
+.a_tool{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 2%;
+  float: right;
+}
+
+.a_tool img{
+  width: 80%;
+  margin-top: 15px;
+}
+
+.nav_toggle{
+  float: left;
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 2%;
+  margin-top: 20px;
+}
+
+.nav_open{
+  background-image: url(../images/nav.png);
+}
+
+.nav_close{
+  background-image: url(../images/close.png);
+}
+
+.sub_menu{
+  width: 96%;
+  margin-left: 2%;
+  clear: both;
+  padding-bottom: 150px;
+}
+
+#sign_in_menu{
+}
+
+#sign_in_as{
+  clear: both;
+  list-style: none;
+  position: absolute;
+  top: 70px;
+  right: 1%;
+}
+
+#sign_in_as li{
+  display: inline-block;
+}
+
+#sign_in_as li a{
+  background-color: gray;
+  color: white;
+}
